@@ -1,3 +1,0 @@
-#Ignore specific files
-_pycache_
-data
