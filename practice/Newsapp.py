@@ -1,8 +1,8 @@
 import requests
 import json
 topicQuery=input("Enter the topic of news u wanna see? ")
-url2=(f"https://newsdata.io/api/1/news?apikey=pub_33348feb9670e375922fd8884b1751b2080dd&q={topicQuery}")
-url1 =(f"https://newsapi.org/v2/everything?q={topicQuery}&from=2023-10-22&sortBy=publishedAt&apiKey=c223759de787406e80aa53c2add7b48e")
+url2=(f"https://newsdata.io/api/1/news?apikey=sth&q={topicQuery}")
+url1 =(f"https://newsapi.org/v2/everything?q={topicQuery}&from=2023-10-22&sortBy=publishedAt&apiKey=sth")
 url=int(input("Type 1 for url1 or 2 for  url2(np)"))
 if url==1:
     response = requests.get(url1)
